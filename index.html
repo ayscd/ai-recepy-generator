@@ -6,6 +6,10 @@
 
     <!--IMPORTING AXIOS-->
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <!--IMPORTING TYPEWRITER PLUGIN-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI RECEPY 🥙😋</title>
 </head>
 <body>
@@ -16,19 +20,28 @@
     <div class="app-wrapper">
         <header>
             <div class="header-wrapper">
-                <h1 class="title"></h1>
-                <p class="intro-message"></p>
+                <h1 class="title">ELLIOT, the cheff</h1>
+                <p class="intro-message">
+                    <div id="string-1">Hello! I'm Elliot, your personal recepy generator...</div>
+                    <div id="string-2">I'm here to help you satisfy your desires in the kitchen 🌯🥞🥗🍣🥙</div>
+                    <div id="string-3">Tell me what you want to eat, and I'll tell you how to do it - the same way a cheff does it.</div>
+                </p>
             </div>
         </header>
         <main>
-            <div class="form-wrapper">
-                <form action="input" class="user-instructions" id="user-instructions"></form>
-                <form action="submit" class="button" id="button"></form>
+            <div class="form-wrapper" id="form-wrapper">
+                <form>
+                    <input type="text" class="user-instructions" id="user-instructions" placeholder="What do you want to eat?">
+                    <input type="submit" class="button" id="button" value="I'm hungry!">
+                </form>
             </div>
+            <div class="recepy" id="recepy"></div>
         </main>
         <footer>
             <div class="footer-wrapper">
-                This AI Recepy Generator was built by <a class="git-profile" href="https://github.com/ayscd">Ayeska</a>, is linked to <a class="git-project" href="">Git Hub</a> and hosted on <a class="host-link" href="">Netlify</a>.
+                This AI Recepy Generator was built by <a class="git-profile" href="https://github.com/ayscd">Ayeska</a>,
+                is linked to <a class="git-project" href="https://github.com/ayscd/ai-recepy-generator">Git Hub</a>
+                and hosted on <a class="host-link" href="https://ai-recepy-generator.netlify.app/">Netlify</a>.
             </div>
         </footer>
     </div>
