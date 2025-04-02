@@ -1,8 +1,20 @@
 body {
-    font-family:'Genova', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 120px auto;
     max-width: 900px;
+}
+
+h3 {
+    color: rgb(59, 54, 26);
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 hr {
@@ -11,6 +23,7 @@ hr {
 }
 
 footer {
+    font-family:'Genova', sans-serif;
     margin-top: 20px;
     font-size: 12px;
 }
@@ -23,6 +36,7 @@ footer {
     margin-bottom: 40px;
 }
 .title {
+    font-family:'Genova', sans-serif;
     font-size: 58px;
     font-weight: 600;
     line-height: 1;
@@ -33,6 +47,7 @@ footer {
 }
 
 .subtitle {
+    font-family:'Genova', sans-serif;
     margin-top: 10px;
     margin-left: 195px;
     font-size: 40px;
@@ -41,6 +56,7 @@ footer {
 }
 
 .hi-button {
+    font-family:'Genova', sans-serif;
     font-size: 14px;
     border-width: 1px;
     border-radius: 10px;
@@ -54,7 +70,6 @@ footer {
 
 .intro-message {
     padding: 40px 0 0 0;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     line-height: 2;
 }
@@ -65,7 +80,7 @@ footer {
 
 .user-instructions, .submit-button {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     padding: 5px 15px;
     border-width: 1px;
@@ -91,6 +106,23 @@ footer {
     text-align: left;
     margin-left: 100px;
     margin-bottom: 20px;
+}
+
+.generating {
+    font-size: 12px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.recepy-wrapper {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(202, 202, 202, 0.2);
+    border-radius: 5px;
+    max-width: 700px;
+    text-align: left;
+    margin-left: 80px;
+    padding: 15px;
 }
 
 .git-profile, .git-project, .host-link {
