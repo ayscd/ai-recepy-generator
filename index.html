@@ -10,6 +10,9 @@
     <!--IMPORTING TYPEWRITER PLUGIN-->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
+    <!--IMPORTING THE .CSS FILE-->
+    <link rel="stylesheet" href="src/styles.css">
+
     <title>AI RECEPY 🥙😋</title>
 </head>
 <body>
@@ -20,20 +23,35 @@
     <div class="app-wrapper">
         <header>
             <div class="header-wrapper">
-                <h1 class="title">ELLIOT, the cheff</h1>
-                <p class="intro-message">
-                    <div id="string-1">Hello! I'm Elliot, your personal recepy generator...</div>
-                    <div id="string-2">I'm here to help you satisfy your desires in the kitchen 🌯🥞🥗🍣🥙</div>
-                    <div id="string-3">Tell me what you want to eat, and I'll tell you how to do it - the same way a cheff does it.</div>
-                </p>
+                <div class="app-name">
+                    <div class="title"><span class="title-emoji">🧑🏻‍🍳</span> ELLIOT</div>
+                    <div class="subtitle">the cheff</div>
+                </div>
+                <button class="hi-button" id="hi-button">Hi!</button>
+                <div class="intro-message" id="intro-message">
+                    <div id="string-1"></div>
+                    <div id="string-2"></div>
+                    <div id="string-3"></div>
+                    <div id="string-4"></div>
+                </div>
             </div>
         </header>
         <main>
             <div class="form-wrapper" id="form-wrapper">
-                <form>
-                    <input type="text" class="user-instructions" id="user-instructions" placeholder="What do you want to eat?">
-                    <input type="submit" class="button" id="button" value="I'm hungry!">
+                <form id="form">
+                    <input type="text" class="user-instructions" id="user-instructions"
+                    placeholder="What do you want to eat?"
+                    autocomplete="off"
+                    autofocus
+                    required
+                    />
+                    <input type="submit" class="submit-button" id="submit-button" value="I'm hungry!"/>
                 </form>
+                <div class="user-xp-wrapper">i.e.:
+                    <div class="user-xp-1">"I'm hosting dinner for two, and I want to prepare something with meat, potatoes and some sauce", or...</div>
+                    <div class="user-xp-2">"I'm vegetarian and want to host a brunch for 5 friends", or...</div>
+                    <div class="user-xp-3">"I'm alone and I need a snack. What can I prepare with apples, eggs, honey and cinnamon?"...</div>
+                </div>
             </div>
             <div class="recepy" id="recepy"></div>
         </main>
@@ -46,5 +64,7 @@
         </footer>
     </div>
 
+    <!--IMPORTING THE .JS FILE-->
+    <script src="src/index.js"></script>
 </body>
 </html>

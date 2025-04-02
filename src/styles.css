@@ -1,0 +1,36 @@
+body {
+    font-family:'Genova', sans-serif;
+    text-align: center;
+    margin: 120px auto;
+    max-width: 700px;
+}
+
+.hidden {
+    display: none;
+}
+
+.app-name {
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.title-emoji {
+    font-size: 100px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    margin-left: 195px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.intro-message {
+    font-size: 14px;
+    line-height: 2;
+}
