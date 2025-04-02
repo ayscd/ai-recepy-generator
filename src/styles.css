@@ -2,7 +2,17 @@ body {
     font-family:'Genova', sans-serif;
     text-align: center;
     margin: 120px auto;
-    max-width: 700px;
+    max-width: 900px;
+}
+
+hr {
+    box-shadow: 10px 10px 20px rgb(181, 181, 181);
+    margin-top: 80px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 .hidden {
@@ -30,7 +40,71 @@ body {
     line-height: 1;
 }
 
-.intro-message {
+.hi-button {
     font-size: 14px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: black;
+    box-shadow: 10px 10px 20px rgb(181, 181, 181);
+    color: white;
+    padding: 5px 15px;
+    margin: 80px 0 20px 0;
+}
+
+.intro-message {
+    padding: 40px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     line-height: 2;
+}
+
+.form {
+    margin: 20px 0 8px 0;
+}
+
+.user-instructions, .submit-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 5px 15px;
+    border-width: 1px;
+    border-radius: 5px;    
+}
+
+.user-instructions {
+    width: 600px;
+    border-color: grey;
+}
+
+.submit-button {
+    border-color: black;
+    background-color: black;
+    box-shadow: 10px 10px 20px rgb(181, 181, 181);
+    color: white;
+}
+
+.user-xp {
+    color: rgb(147, 147, 147);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.git-profile, .git-project, .host-link {
+    color: rgb(81, 75, 35);
+}
+
+.git-profile:hover, .git-project:hover, .host-link:hover {
+     color: rgba(29, 29, 27, 0.4);
+}
+
+.git-profile:visited, .git-project:visited, .host-link:visited {
+       color: rgba(27, 29, 27, 0.4);
+}
+
+.git-profile:active, .git-project:active, .host-link:active {
+       color: rgba(29, 29, 27, 0.4);
 }
